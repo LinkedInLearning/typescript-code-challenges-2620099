@@ -1,0 +1,9 @@
+{
+  "extensions": [
+    "GitHub.github-vscode-theme"
+    // Additional Extensions Here
+  ],
+  "onCreateCommand": "sudo cp ${containerWorkspaceFolder}/.devcontainer/welcome-text.txt /usr/local/etc/vscode-dev-containers/first-run-notice.txt && echo PS1='\"$ \"' >> ~/.bashrc"
+  // Update welcome text and set terminal prompt to '$ '
+}
+// DevContainer Reference: https://code.visualstudio.com/docs/remote/devcontainerjson-reference

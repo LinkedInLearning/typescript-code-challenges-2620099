@@ -1,0 +1,3 @@
+Welcome to Codespaces on LinkedIn Learning!
+
+Check out the README.md file to learn how we’ve customized the Codespaces experience for this course. For more information about using this cloud-based development environment watch the "Using Codespaces with this course" video on LinkedIn Learning.
