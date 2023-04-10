@@ -1,0 +1,24 @@
+{
+  "name": "lil-typescript-challenges",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "decorator": "npx ts-node challenges/02_06_decorators.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "TODO"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "homepage": "TODO",
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
