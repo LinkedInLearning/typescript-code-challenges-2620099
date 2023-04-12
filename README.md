@@ -62,9 +62,11 @@ Sehen Sie sich andere Kurse des Autors auf [LinkedIn Learning](https://www.linke
 ## !push force squash nicht vergessen!
 
 TypeScript ist exzellent um professionelle, stabile Apps zu bauen.
-TypeScripts Möglichkeiten gehen aber deutlich weiter als das was Allgemeinhin gelehrt wird.
-Hier werden Sie viele, spannende Challenges finden um Ihr TypeScript-Verständnis nochmals aktiv und drastisch zu erweitern. Sie werden sich teilweise mit lang etablierten und teilweise mit sehr neuen Features auseinandersetzen.
+TypeScripts Möglichkeiten gehen aber deutlich weiter als das was in der breiten Masse bekannt ist.
+In diesem Code Challenges Kurs begeben Sie sich auf eine Reise voller spannenden Aufgaben um Ihr TypeScript-Verständnis nochmals aktiv unter Beweis zu stellen, zu erweitern und zu festigen. Sie werden sich teilweise mit lang etablierten und teilweise mit sehr neuen Features auseinandersetzen.
 
-Dabei werden Sie durchaus herausfordernde Aufgaben meistern aber eines ist sicher: Danach sind Sie perfekt vorbereitet auf jegliche Praxisfälle.
+Dabei werden Sie durchaus herausfordernde und kreative Rätsel meistern aber eines ist sicher: Danach sind Sie perfekt vorbereitet auf die Praxis.
 
 Ich empfehle Ihnen vor diesen Challenges den TypeScript Grundkurs zu machen der Ihnen über die Basics hinaus ein Komplettverständnis von TypeScript liefert.
+
+Mein Name ist David Lorenz, ich bin Softwarearchitekt und nehme Sie in diesem Kurs an die Hand um das nächste Level von TypeScript-Wissen zu erreichen.

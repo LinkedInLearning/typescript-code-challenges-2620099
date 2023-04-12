@@ -3,6 +3,7 @@
     "vscode": {
       "extensions": [
         "GitHub.github-vscode-theme",
+        "sonusinha.Dark-Blue-Theme",
         "esbenp.prettier-vscode",
         "dbaeumer.vscode-eslint",
         "ritwickdey.LiveServer",
