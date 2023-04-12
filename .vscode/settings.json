@@ -26,5 +26,8 @@
   "prettier.enable": true,
   "eslint.alwaysShowStatus": false,
   "liveServer.settings.donotVerifyTags": true,
-  "breadcrumbs.enabled": false
+  "breadcrumbs.enabled": false,
+  "github.copilot.enable": {
+    "*": false
+  }
 }
