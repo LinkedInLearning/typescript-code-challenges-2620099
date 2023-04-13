@@ -1,4 +1,3 @@
-// Level 1
 const personDefinition = {
   name: "David",
   age: 2000,
