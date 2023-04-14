@@ -11,3 +11,5 @@ const Person: MyPersonInterface = {
   name: "Danny",
   age: 32,
 };
+
+export {};

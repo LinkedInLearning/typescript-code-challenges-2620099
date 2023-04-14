@@ -1,9 +1,15 @@
-class Person {
-  constructor(name: string, age: number) {}
+class Animal {
+  constructor(name: string, type: string) {
+    console.log("Neues Tier erzeugt mit Name=", name, " und Typ=", type);
+  }
 }
 
-const person = new Person("Kay", 29);
+const animal = new Animal("Max", "Dog");
 
-console.log("Name der Person:", person.name);
+const getAnimalName = (animal: Animal): string => animal.name;
+const getAnimalType = (animal: Animal): string => animal.type;
+
+console.log("Tiername:", getAnimalName(animal));
+console.log("Tiertyp:", getAnimalType(animal));
 
 export {};

@@ -7,20 +7,20 @@ function getDefaultConfig() {
   };
 }
 
-type Config = ReturnType<typeof getDefaultConfig>; // abgeleitet von getDefaultConfig
+type Config = any; // abgeleitet von getDefaultConfig
 
 const customConfig: Config = {
-  appName: "My App 2",
+  name: "My App",
   isProduction: true,
-  currentVersion: "v3.0",
+  version: "v3.0",
 };
 
 function ensureConfigIsValidOrThrow(config: Config) {
-  if (!config.currentVersion) {
+  if (!config.version) {
     throw new Error("Version must be set in config");
   }
 
-  if (!config.appName) {
+  if (!config.customAppName) {
     throw new Error("App name must be set in config");
   }
 }
