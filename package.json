@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "decorator": "npx ts-node 03_01/Challenge_Decorators.ts"
+    "decorator": "npx ts-node 03_01_Decorators/Challenge_Decorators.ts"
   },
   "repository": {
     "type": "git",
