@@ -1,13 +1,13 @@
-function jsonToObject(originalMethod: any, context: any) {
-  return function decoratorFunction(this: any, ...args: any[]) {
-    return JSON.parse(originalMethod(...args));
+function jsonToName(originalMethod: any, context: any) {
+  return () => {
+    return JSON.parse(originalMethod()).name;
   };
 }
 
 class FetchJson {
-  @jsonToObject
+  @jsonToName
   static dataFromServer() {
-    return '{"name": "Decorators are cool"}';
+    return '{"name": "Decorators sind cool!"}';
   }
 }
 

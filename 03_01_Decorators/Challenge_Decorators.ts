@@ -1,7 +1,7 @@
-function jsonToObject(originalMethod: any, context: any) {}
+function jsonToName(originalMethod: any, context: any) {}
 
 class FetchJson {
-  @jsonToObject
+  @jsonToName
   static dataFromServer() {
     return '{"name": "Decorators are cool"}';
   }
