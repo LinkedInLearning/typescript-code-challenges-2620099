@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "decorator": "npx tsc 03_01_Decorators/Challenge_Decorators.ts --outFile dtmp.js && node dtmp.js"
+    "decorator": "npx tsc 03_01_Decorators/Challenge_Decorators.ts --outDir ./tmp && node ./tmp/Challenge_Decorators.js"
   },
   "repository": {
     "type": "git",

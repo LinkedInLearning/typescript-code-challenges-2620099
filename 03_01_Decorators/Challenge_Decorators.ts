@@ -1,8 +1,4 @@
-function jsonToObject(originalMethod: any, context: any) {
-  return function decoratorFunction(this: any, ...args: any[]) {
-    return JSON.parse(originalMethod(...args));
-  };
-}
+function jsonToObject(originalMethod: any, context: any) {}
 
 class FetchJson {
   @jsonToObject
