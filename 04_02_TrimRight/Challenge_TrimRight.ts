@@ -1,2 +1,8 @@
-// Level 4
-// sample: https://ghaiklor.github.io/type-challenges-solutions/en/medium-trim-right.html
+type TrimRight<T extends string> = T;
+
+type Trimmed = TrimRight<" Hello World   ">;
+
+// -------------------------------
+type WunschTyp = " Hello World";
+
+export {};
