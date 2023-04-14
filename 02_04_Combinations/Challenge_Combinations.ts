@@ -1,19 +1,25 @@
-// Level 2
-// https://www.geeksforgeeks.org/dynamic-method-dispatch-runtime-polymorphism-java/
+class IceCream {
+  constructor(public id: number, public name: string) {}
+}
 
-class Person {
-  static getByIdOrName(type: "id", id: number): boolean;
-  static getByIdOrName(type: "name", name: string): boolean;
-  static getByIdOrName(
-    type: "id" | "name",
-    idOrName: number | string
-  ): boolean {
-    return true;
+class IceCreamDatabase {
+  static db = [
+    new IceCream(5, "Chocolate"),
+    new IceCream(34, "Blueberry"),
+    new IceCream(9, "Strawberry Choc"),
+  ];
+
+  static getByIdOrName(type: "id" | "name", idOrName: number | string) {
+    if (type === "id") {
+      return IceCreamDatabase.db.find((ic) => ic.id === idOrName);
+    } else {
+      return IceCreamDatabase.db.find((ic) => ic.name === idOrName);
+    }
   }
 }
 
-Person.getByIdOrName("id", "test"); // ❌
-Person.getByIdOrName("id", 12); // ✅
-Person.getByIdOrName("name", "David"); // ✅
+IceCreamDatabase.getByIdOrName("id", "test"); // ❌
+IceCreamDatabase.getByIdOrName("id", 12); // ✅
+IceCreamDatabase.getByIdOrName("name", "David"); // ✅
 
 export {};
