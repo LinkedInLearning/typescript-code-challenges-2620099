@@ -18,4 +18,6 @@ type Dogs = {
 
 type OurAnimals = Birds | Sharks | Dogs;
 
-type OurAnimalsWith4Legs = Exclude<OurAnimals, { legs: 0 | 2 }>;
+type OurAnimalsWith4Legs = OurAnimals;
+
+export {};
