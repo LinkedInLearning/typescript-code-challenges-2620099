@@ -12,3 +12,5 @@ class FetchJson {
 }
 
 console.log(FetchJson.dataFromServer());
+
+export {};
