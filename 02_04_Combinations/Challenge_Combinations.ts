@@ -1,4 +1,5 @@
 class IceCream {
+  public rating = "5/5 yummy!";
   constructor(public id: number, public name: string) {}
 }
 
@@ -18,8 +19,9 @@ class IceCreamDatabase {
   }
 }
 
-IceCreamDatabase.getByIdOrName("id", "test"); // ❌
-IceCreamDatabase.getByIdOrName("id", 12); // ✅
-IceCreamDatabase.getByIdOrName("name", "David"); // ✅
+IceCreamDatabase.getByIdOrName("id", "5"); // ❌
+IceCreamDatabase.getByIdOrName("name", 9); // ❌
+IceCreamDatabase.getByIdOrName("id", 34); // ✅
+IceCreamDatabase.getByIdOrName("name", "Blueberry"); // ✅
 
 export {};
