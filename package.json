@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "decorator": "npx ts-node 03_01_Decorators/Challenge_Decorators.ts"
+    "decorator": "npx tsc 03_01_Decorators/Challenge_Decorators.ts --outFile dtmp.js && node dtmp.js"
   },
   "repository": {
     "type": "git",
@@ -16,8 +16,5 @@
   "homepage": "TODO",
   "devDependencies": {
     "typescript": "^5.0.2"
-  },
-  "dependencies": {
-    "ts-node": "^10.9.1"
   }
 }
