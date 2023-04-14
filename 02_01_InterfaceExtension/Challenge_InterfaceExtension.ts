@@ -1,4 +1,3 @@
-// level 2
 interface MyPersonInterface {
   name: string;
 }
