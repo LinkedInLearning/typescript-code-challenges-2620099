@@ -1,5 +1,3 @@
-// Level: 1
-
 function inputTypeIsOutputType(input: string | number) {
   return input;
 }
