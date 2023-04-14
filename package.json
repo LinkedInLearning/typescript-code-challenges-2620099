@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "decorator": "npx ts-node 03_01_Decorators/Challenge_Decorators.ts"
   },
