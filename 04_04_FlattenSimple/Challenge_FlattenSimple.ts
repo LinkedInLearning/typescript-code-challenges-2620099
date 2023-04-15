@@ -1,12 +1,6 @@
-const arr = ["eins", "zwei", "drei", "tausend 💪"] as const;
+const textArray = ["TypeScript", "ist", "mächtig", "💪"] as const;
+// -> TypeScript ist mächtig 💪
 
-export type FlattenStringArray<T extends readonly any[]> = T extends readonly [
-  infer First,
-  ...infer Rest
-]
-  ? First extends string
-    ? `${First}${FlattenStringArray<Rest>}`
-    : ""
-  : "";
+export type ArrayToString<T extends readonly any[]> = "ergebnis";
 
-type Flattened = FlattenStringArray<typeof arr>;
+type Sentence = ArrayToString<typeof textArray>;
