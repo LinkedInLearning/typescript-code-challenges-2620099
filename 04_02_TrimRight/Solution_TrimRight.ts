@@ -1,4 +1,4 @@
-type TrimRight<T extends string> = T extends `${infer U extends string} `
+export type TrimRight<T extends string> = T extends `${infer U extends string} `
   ? TrimRight<U>
   : T;
 

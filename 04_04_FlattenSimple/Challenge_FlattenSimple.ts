@@ -1,6 +1,9 @@
+import { TrimRight } from "../04_02_TrimRight/Solution_TrimRight";
+
 const textArray = ["TypeScript", "ist", "mächtig", "💪"] as const;
-// -> TypeScript ist mächtig 💪
 
-export type ArrayToString<T extends readonly any[]> = "ergebnis";
+export type JoinToString<T extends readonly any[]> = "";
 
-type Sentence = ArrayToString<typeof textArray>;
+// JoinToString --> "TypeScript ist mächtig 💪 " (mit Leerzeichen am Ende)
+// + TrimRight --> "TypeScript ist mächtig 💪" (ohne Leerzeichen am Ende)
+type Sentence = TrimRight<JoinToString<typeof textArray>>;
