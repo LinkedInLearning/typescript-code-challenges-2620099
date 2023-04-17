@@ -2,8 +2,7 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "GitHub.github-vscode-theme",
-        "sonusinha.Dark-Blue-Theme",
+        "StevenPhan.framer-syntax",
         "esbenp.prettier-vscode",
         "dbaeumer.vscode-eslint",
         "stylelint.vscode-stylelint"
